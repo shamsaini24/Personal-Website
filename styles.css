@@ -2,7 +2,7 @@ body {
 	background: #222;
 	margin: 0rem;
 	min-height: 100vh;
-	font-family: Futura, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 #canvas, #text {
 	position: absolute;
@@ -16,13 +16,14 @@ body {
   width: 100vw;
   z-index: 1;
   color: #fff;
-  text-transform: uppercase;
   font-size: 8vmin;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 0%;
 }
 #text h1 {
 	opacity: 0.9
 }
+
