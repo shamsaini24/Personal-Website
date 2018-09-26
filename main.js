@@ -30,8 +30,8 @@ function Particle()
     this.x = Math.floor((Math.random() * canvas.width/2) + this.radius); 
     this.y =  Math.floor((Math.random() * canvas.height/2) + this.radius); 
     this.color = couleurs[Math.round(Math.random()*couleurs.length)];
-    this.speedx = Math.round((Math.random()*201)+0)/100;
-    this.speedy = Math.round((Math.random()*201)+0)/100;
+    this.speedx = Math.round((Math.random()*150)+0)/100;
+    this.speedy = Math.round((Math.random()*150)+0)/100;
 
     switch (Math.round(Math.random()*couleurs.length))
     {
@@ -128,3 +128,7 @@ function animate()
 
 
 animate(); 
+
+$('#button').click(function(){
+    window.location.href= "mainpage.html";
+})

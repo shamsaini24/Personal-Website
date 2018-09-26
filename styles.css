@@ -2,7 +2,7 @@ body {
 	background: #222;
 	margin: 0rem;
 	min-height: 100vh;
-    font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 #canvas, #text {
 	position: absolute;
@@ -12,11 +12,11 @@ body {
 	z-index: -1;
 }
 #text {
-  min-height: 100vh;
+  min-height: 65vh;
   width: 100vw;
   z-index: 1;
   color: #fff;
-  font-size: 8vmin;
+  font-size: 6vmin;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,3 +27,76 @@ body {
 	opacity: 0.9
 }
 
+#text span{
+  color:#45a29e
+}
+
+#button{
+  position: absolute;
+	display: block;
+	top: 0;
+  left: 0;
+  min-height: 92vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0%;
+}
+
+.button {
+  border-radius: 4px;
+  border: solid;
+  background: transparent;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 3vmin;
+  padding: 1vmin;
+  width: 20vw;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5em;
+  z-index: 1;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -0.8em;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 0.7em;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:hover{
+  background-color:#45A29e;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  border: 0.5px;
+}
+
+.btn-responsive {
+  white-space: normal !important;
+}
