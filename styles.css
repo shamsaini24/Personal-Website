@@ -1,5 +1,5 @@
 body {
-	background: #222;
+	background: #0B0C10;
 	margin: 0rem;
 	min-height: 100vh;
   font-family: 'Raleway', sans-serif;
@@ -99,4 +99,8 @@ body {
 
 .btn-responsive {
   white-space: normal !important;
+}
+
+.display-3 p{
+  color:white;
 }
