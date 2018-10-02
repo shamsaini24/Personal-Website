@@ -20,7 +20,8 @@ var W = window.innerWidth, H = window.innerHeight;
 canvas.width = W;
 canvas.height = H;
 
-var particle_count = 40,
+//Particle setup
+var particle_count = 45,
     particles = [],
     couleurs   = ["#07689f", "#a2d5f2", "#fafafa","#45A29E"];
 function Particle()
@@ -83,7 +84,8 @@ function Particle()
         {
             this.speedy *= -1;
         }
-
+        
+        //drawing the lines between the dots
         for (var j = 0; j < particle_count; j++)
         {
             var particleActuelle = particles[j],
@@ -129,6 +131,6 @@ function animate()
 
 animate(); 
 
-$('#button').click(function(){
+$('button').click(function(){
     window.location.href= "mainpage.html";
 })

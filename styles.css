@@ -3,6 +3,8 @@ body {
 	margin: 0rem;
 	min-height: 100vh;
   font-family: 'Raleway', sans-serif;
+  padding-top: 4.5rem;
+
 }
 #canvas, #text {
 	position: absolute;
@@ -28,7 +30,7 @@ body {
 }
 
 #text span{
-  color:#45a29e
+  color:#00fff2
 }
 
 #button{
@@ -101,6 +103,31 @@ body {
   white-space: normal !important;
 }
 
-.display-3 p{
-  color:white;
+.navbar{
+ background-color: #1F2833;
+ border-bottom: 0.5px outset #C5C6C7;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgba(102, 252, 241);
+} 
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(102, 252, 241)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand{
+  color: #66fcf1;
+}
+.navbar-brand:hover{
+  color: #66fcf1;
+}
+
+.nav-link{
+  color: #66fcf1;
+}
+
+.nav-link:hover{
+  border-bottom: 0.5px solid;
+  border-color: #C5C6C7;
+  color:#66fcf1;
 }
