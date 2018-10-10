@@ -123,11 +123,60 @@ body {
 }
 
 .nav-link{
-  color: #66fcf1;
+  color: white;
 }
 
+/*
+TO DO: Make so that when I am in a certain section, that link is highlighed blue. Hover is also blue. Default is white.
+Need javascript to achive the changing of classes.
+*/
+
 .nav-link:hover{
-  border-bottom: 0.5px solid;
-  border-color: #C5C6C7;
+  -webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
   color:#66fcf1;
+}
+
+#about {
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+  height: inherit;
+}
+
+#about-picture{
+float: right;
+}
+
+#about-description{
+  background: #1F2833;
+  float: right;
+  color:white;
+  height: 30vh;
+  text-align: center;
+  line-height: 30vh;
+}
+
+span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+ 
+#about-title{
+  float:center;
+}
+
+#portrait{
+  display: block;
+}
+
+.header{
+  color: #66fcf1;
+  border-bottom: 2px outset #66fcf1; 
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-bottom: 2vmin;
 }
