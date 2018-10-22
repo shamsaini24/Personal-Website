@@ -139,6 +139,18 @@ Need javascript to achive the changing of classes.
   color:#66fcf1;
 }
 
+.jumbotron{
+  background: #0B0C10;
+}
+
+#jumbo-head{
+  color: #66fcf1;
+}
+
+#jumbo-text{
+  color:#C5C6C7;
+}
+
 #about {
   background: white;
   width: 100%;
@@ -171,11 +183,12 @@ span{
 
 #portrait{
   display: block;
+  height:16em;
 }
 
 .header{
   color: #66fcf1;
-  border-bottom: 2px outset #66fcf1; 
+  border-bottom: 3px outset #66fcf1; 
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   margin-bottom: 2vmin;
