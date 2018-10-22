@@ -143,6 +143,17 @@ Need javascript to achive the changing of classes.
   background: #0B0C10;
 }
 
+.typewrite {
+   color:#66fcf1; text-decoration: none;
+  }
+
+  .typewrite:hover {
+    color:#66fcf1;
+    text-decoration: none;
+    cursor: auto;
+   }
+
+
 #jumbo-head{
   color: #66fcf1;
 }
