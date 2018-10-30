@@ -215,14 +215,14 @@ span{
 }
 
 .header-2{
-  color: black;
-  border-bottom: 5px inset #0B0C10; 
+  color: #66fcf1;
+  border-bottom: 4px inset #45A29e; 
   margin-bottom: 3vmin;
 
 }
 
-#previous-work{
-  background: #45A29e;
+#portfolio{
+  margin-bottom: 10vh;
 }
 
 #project1{
@@ -285,6 +285,11 @@ span{
   overflow: hidden;
   padding: 0.5em 0;
   background-color: transparent;
+  opacity: 0;
+}
+.hovereffect:hover h2 {
+  opacity: 1;
+  transition:0.3s;
 }
 
 .hovereffect h2:after {
@@ -321,4 +326,37 @@ span{
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+}
+
+.greyscale{
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: #000000;
+}
+
+.greyscale img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: 100%;
+}
+
+
+.greyscale {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-transition: all .3s ease-in-out;
+}
+
+/* Disable grayscale on hover */
+.greyscale:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+
 }
