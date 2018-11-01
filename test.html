@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="teststyles.css">
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="#">Sham Saini</a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#past-experience">Past Experience</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Modal body..
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<div class="flex-container" id="content">
+      
+
+
+     <!-- TODO: Learn More link should open Modal -->
+      <div class="row justify-content-center" id="portfolio">
+        
+        <h1 class="col-lg-12 text-center header-1">About</h1>
+        <div class="row align-items-center justify-content-center" id="about">
+          <div class="col-sm-4 media" id="about-picture">
+            <img class="img-fluid mx-auto" id="portrait" src="website12.jpg" alt="portrait">
+          </div>
+          <div class="col-md-2 text-center" id="about-title"><h2>Who's this Guy?</h2></div>
+          <div class="col-md-6" id="about-description">
+            <span>HERE THERE WILL BE A SHORT DESCRIPTION ABOUT ME AND MY SKILLS
+            I CAN TALK ABOUT PRETTY MUCH ANYTHING, AS LONG AS IT IS RELEVANT TO NEW WORKddddddddddddddddddddddddd dddddddddddddddddddddddd dddddddd
+            </span>
+          </div>
+        </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="project1">
+              <div class="hovereffect">
+                  <img class="img-fluid mx-auto" src="website12.jpg" alt="">
+                      <div class="overlay">
+                          <h2 class="display-5">Waffle House</h2>
+                  <p>
+                    <a >Learn More</a>
+                  </p>
+                      </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="project2">
+              <div class="hovereffect">
+                  <img class="img-fluid mx-auto" src="website12.jpg" alt="">
+                      <div class="overlay">
+                          <h2 class="display-5">BCIT Hackathon</h2>
+                  <p>
+                    <a href="#about">Learn More</a>
+                  </p>
+                      </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="project3">
+              <div class="hovereffect">
+                  <img class="img-fluid mx-auto" src="website12.jpg" alt="">
+                      <div class="overlay">
+                          <h2 class="display-5">Chess Game</h2>
+                  <p>
+                    <a href="#about">Learn More</a>
+                  </p>
+                      </div>
+              </div>
+          </div>     
+         </div>
+
+        
+
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
