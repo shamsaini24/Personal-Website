@@ -348,6 +348,7 @@ span{
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
   -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 /* Disable grayscale on hover */
