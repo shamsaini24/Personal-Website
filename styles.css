@@ -1,3 +1,7 @@
+html{
+  min-height: 100%;
+}
+
 body {
 	background: #0B0C10;
 	margin: 0rem;
@@ -9,6 +13,13 @@ body {
 html, body {
   max-width: 100%;
  /* overflow-x: hidden;*/
+}
+
+::selection {
+  background: #66fcf1; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #66fcf1; /* Gecko Browsers */
 }
 
 #canvas, #text {
@@ -31,7 +42,7 @@ html, body {
   margin: 0%;
 }
 #text h1 {
-	opacity: 0.9
+	opacity: 0.9;
 }
 
 #text span{
@@ -210,17 +221,17 @@ span{
   border-bottom: 3px outset #66fcf1; 
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  margin-bottom: 3vmin;
+  margin-bottom: 4vmin;
 }
 
 .header-2{
   color: #66fcf1;
   border-bottom: 4px inset #45A29e; 
-  margin-bottom: 3vmin;
+  margin-bottom: 4vmin;
 }
 
 #portfolio{
-  margin-bottom: 10vh;
+  margin-bottom: 4vmin;
 }
 
 #project1{
@@ -409,3 +420,51 @@ fieldset[disabled] .btn-custom.active {
   background-color: #45FCF1; 
 }
 
+.modal-header{
+  background-color: #1F2833;
+  color: #C5C6C7
+}
+.modal-footer{
+  background-color: #1F2833;
+}
+.modal-content{
+  background-color: #1F2833;
+  color: #C5C6C7;
+}
+
+.close {
+  color: #fff; 
+  opacity: 1;
+}
+
+.modal-picture{
+  padding-bottom: 10px;
+}
+
+.modal-text{
+  border-top: 3px solid #0B0C10;
+  padding-top:0.6rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  padding:1rem;
+  padding-top: 2rem;
+  width: 100%;
+  background-color: #C5C6C7;
+  color:#1F2833;
+  height: inherit;
+}
+
+#footer-heading{
+  line-height: 2px;
+}
+
+#footer-email{
+  color:#45A29e;
+  font-size: 1.1em;
+}
+
+#footer-email:hover{
+  text-decoration: underline;
+}
