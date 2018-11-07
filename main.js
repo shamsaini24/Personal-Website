@@ -56,4 +56,24 @@ window.onload = function() {
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap" ;
     document.body.appendChild(css);
+
+  
 };
+
+$("#about-nav").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#about").offset().top-150},
+        'slow');
+});
+
+  $("#portfolio-nav").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#portfolio").offset().top-150},
+            'slow');
+    });
+
+    $("#experience-nav").click(function() {
+        $('html,body').animate({
+            scrollTop: $("#past-experience").offset().top-150},
+            'slow');
+    });
