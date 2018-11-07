@@ -183,7 +183,7 @@ Need javascript to achive the changing of classes.
   width: 100%;
   margin: 0 auto;
   height: inherit;
-  margin-bottom: 13vh;
+  margin-bottom: 7rem;
 }
 
 #about-picture{
@@ -231,7 +231,7 @@ span{
 }
 
 #portfolio{
-  margin-bottom: 4vmin;
+  margin-bottom: 6rem;
 }
 
 #project1{
@@ -456,15 +456,76 @@ fieldset[disabled] .btn-custom.active {
   height: inherit;
 }
 
-#footer-heading{
-  line-height: 2px;
-}
-
 #footer-email{
   color:#45A29e;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 #footer-email:hover{
   text-decoration: underline;
+}
+
+#footer-phone{
+  font-size: 1.2em;
+  padding-top:0.4em;
+}
+
+#footer-text{
+  height:inherit;
+  font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  .footer-item{
+    margin-top:2em;
+  }
+
+  #footer-text{
+    padding:8px;
+    border-top: 1px solid #1F2833;
+    border-bottom:  1px solid #1F2833;
+  }
+
+  .work-item{
+    margin-top:2rem;
+  }
+
+  #project1{
+    margin-top:1rem;
+  }
+  #project2{
+    margin-top:2rem;
+  }
+  #project3{
+    margin-top:2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  #project3{
+    margin-top:2rem;
+  }
+}
+
+ul.social-media-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px; /* eliminate space between li */
+}
+
+ul.social-media-list li {
+  display: inline-block;
+  margin: 2px;
+}
+
+ul.social-media-list img {
+  padding: 5px;
+  border-radius: 5px;
+  width: 6vh;
+  height: 6vh;
+}
+
+ul.social-media-list img:hover {
+  background-color: #45A29e;
 }
