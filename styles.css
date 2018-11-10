@@ -148,6 +148,11 @@ html, body {
 
 .nav-link{
   color: white;
+
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
 }
 
 /*
@@ -177,7 +182,6 @@ Need javascript to achive the changing of classes.
   cursor: auto;
 }
 
-
 #jumbo-head{
   color: #66fcf1;
 }
@@ -198,13 +202,31 @@ Need javascript to achive the changing of classes.
 float: right;
 }
 
+@media (min-width: 768px) {
+  #about-description{
+    font-size: 1.3rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #about-description{
+    font-size: 1.3rem;
+  }
+}
+
 #about-description{
   background: #1F2833;
   float: right;
   color:white;
-  height: 30vh;
+  height: inherit;
   text-align: center;
   line-height: 30vh;
+  padding:1rem;
+}
+
+#about-description span{
+  line-height: 30px;
 }
 
 span{
@@ -489,7 +511,8 @@ fieldset[disabled] .btn-custom.active {
   }
 
   #footer-text{
-    padding:8px;
+    padding-top:8px;
+    padding-bottom:8px;
     border-top: 1px solid #1F2833;
     border-bottom:  1px solid #1F2833;
   }
