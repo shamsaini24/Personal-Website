@@ -587,9 +587,27 @@ ul.social-media-list img:hover {
 
 .sidebar{
   min-height: 100%;
-  background: red;
+  color:#45FCF1;
+  line-height: 5vh;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 
-.work-content{
-  background: blue;
+.work-text{
+  padding-top:5px;
+}
+
+.work-image{
+  padding-top: 1em;
+  margin-bottom:0.5em;
+  padding-bottom:1em;
+  border-bottom: 2px solid #45A29e;
+}
+
+.sidetext{
+  color:#45A29e;
+}
+
+.work-skills{
+  border-left:2px solid #45a29e
 }

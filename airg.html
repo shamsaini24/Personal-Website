@@ -30,24 +30,24 @@
     <div class="flex-container">
         <div class="row">
             <!-- THIS WILL BE THE VERTICAL SIDE BAR-->
-            <div class="col-lg-3 col-sm-12 sidebar">
+            <div class="col-lg-2 col-sm-12 sidebar">
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <h3>airG</h3>
-                        <span>airG Incorperated</span>
+                        <span class="sidetext">airG Incorperated</span>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-12 col-sm-6">
                         <h3>Year:</h3>
-                        <span>2018</span>
+                        <span class="sidetext">2018</span>
                     </div>
                     
 
                     <div class="col-lg-12 col-sm-6">
                         <h3>Role</h3>
-                        <span>QA Specialist</span>
+                        <span class="sidetext">QA Specialist</span>
                     </div>
                     
                 </div>
@@ -55,15 +55,67 @@
             </div>
     
             <!-- THIS WILL BE THE IMAGE, AND CONTENT OF THE PAGE-->
-            <div class="col-lg-9 work-content">
-                <div class="jumbotron" id="airg-jumbo">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget commodo dolor. Aliquam vitae dolor velit.
+            <div class="col-lg-10 work-content">
+                <div class="row">
+                    <div class="col-lg-12 text-center work-image">
+                        <img class="mx-auto img-fluid" src="images/waffle1.jpg" >
+                    </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget commodo dolor. Aliquam vitae dolor velit. Nam vitae libero quis nunc porttitor efficitur. Aliquam rhoncus nulla non lacus tincidunt tristique quis ut sem. Proin tristique urna nec diam lacinia rhoncus. Nunc et vulputate sapien. In venenatis tristique ex, non interdum augue lacinia vestibulum. Duis eget urna a magna fringilla ultrices a et enim. Etiam vulputate ullamcorper lorem sit amet finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer auctor, tortor ut rutrum elementum, tellus eros sagittis turpis, at feugiat arcu leo eget mauris. Fusce vel quam eu nunc rhoncus convallis in id ante. Curabitur malesuada eget lorem vitae vehicula.
-                </p>    
+
+                <div class="row work-text">
+                    <div class="col-lg-8 col-sm-8">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor erat ipsum, ut varius tortor convallis vel. Vestibulum varius accumsan auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sapien tortor, malesuada ut aliquet sit amet, dapibus eu nisl. Praesent faucibus libero eget risus lobortis condimentum. In congue feugiat neque eu laoreet. Donec scelerisque mi sed convallis bibendum. Proin molestie, lectus quis vestibulum interdum, urna diam fermentum odio, non feugiat ex risus a orci. Vivamus eget elit eu felis placerat eleifend id in augue.
+
+                            </p>
+                    </div>
+                    <div class="col-lg-3 col-sm-3 work-skills">
+                        <p class="h3">Skills Required:</p>
+                        <ul>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                        </ul>
+
+                        <h3>Skills Learned:</h3>
+                        <ul>
+                            <li>test</li>
+                            <li>test</li>
+                            <li>test</li>
+                        </ul>
+                    </div>
+                </div>
+                    
             </div>
         </div>
-        
+        <footer class="footer">
+                <div class="flex-container">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-item" >
+                      <span class="h3">Sham Saini</span><br>
+                      <a href="mai&#108;to&#58;&#115;ha&#109;sai&#110;&#105;&#50;4&#64;gm&#37;61&#105;&#108;&#46;com" target="_top"><span  id="footer-email">shams&#97;ini2&#52;&#64;gma&#105;l&#46;com</span></a><br>
+                      <span id="footer-phone">(778)-791-8069</span>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-item">
+                      <span class="h3">My Goal</span>
+                      <p id="footer-text">
+                       I'm an aspiring software developer, hoping to complete my studies and join a talented team of developers. I'm willing to learn, make mistakes, learn again, and make fewer mistakes.
+                      </p>
+                    </div>
+          
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-item text-center" >
+                        <span class="h3">Social</span>
+                        <p>
+                            <ul class="social-media-list">
+                                <li><a href="https://ca.linkedin.com/in/sham-saini"><img class="img-fluid mx-auto" src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" alt="Twitter" title="Twitter"></a></li>
+                                <li><a href="https://github.com/shamsaini24"><img class="img-fluid mx-auto" src="https://unpkg.com/simple-icons@latest/icons/github.svg" alt="GitHub" title="GitHub"></a></li>
+                            </ul>
+                        </p>    
+                    </div>
+                  </div>
+                <div class="footer-copyright text-center">Copyright Sham Saini <script> document.write(new Date().getFullYear());</script> ©</div>
+                </div>
+              </footer>
     </div>
 
 
@@ -73,7 +125,7 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script   src="http://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script> 
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   
