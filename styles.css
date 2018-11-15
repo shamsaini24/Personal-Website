@@ -155,10 +155,6 @@ html, body {
   transition: color 0.3s ease-in;
 }
 
-/*
-TO DO: Make so that when I am in a certain section, that link is highlighed blue. Hover is also blue. Default is white.
-Need javascript to achive the changing of classes.
-*/
 
 .nav-link:hover{
   -webkit-transition: color 0.5s ease-out;
@@ -207,7 +203,6 @@ float: right;
     font-size: 1.3rem;
   }
 }
-
 
 @media (max-width: 768px) {
   #about-description{
@@ -559,4 +554,42 @@ ul.social-media-list img {
 
 ul.social-media-list img:hover {
   background-color: #45A29e;
+}
+
+.back-button{
+  font-size: 50px;
+  padding: 0;
+  line-height: 50px;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.work-content{
+  color:#C5C6C7;
+}
+
+#airg-jumbo img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0;
+}
+
+#airg-jumbo{
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.sidebar{
+  min-height: 100%;
+  background: red;
+}
+
+.work-content{
+  background: blue;
 }
