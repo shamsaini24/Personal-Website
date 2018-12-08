@@ -148,13 +148,11 @@ html, body {
 
 .nav-link{
   color: white;
-
   -webkit-transition: color 0.3s ease-in;
   -moz-transition: color 0.3s ease-in;
   -o-transition: color 0.3s ease-in;
   transition: color 0.3s ease-in;
 }
-
 
 .nav-link:hover{
   -webkit-transition: color 0.5s ease-out;
@@ -169,7 +167,8 @@ html, body {
 }
 
 .typewrite {
-  color:#66fcf1; text-decoration: none;
+  color:#66fcf1;
+  text-decoration: none;
 }
 
 .typewrite:hover {
@@ -588,7 +587,7 @@ ul.social-media-list img:hover {
 .sidebar{
   min-height: 100%;
   color:#45FCF1;
-  line-height: 5vh;
+  line-height: 7vh;
   padding-top:10px;
   padding-bottom:10px;
 }
@@ -604,10 +603,38 @@ ul.social-media-list img:hover {
   border-bottom: 2px solid #45A29e;
 }
 
-.sidetext{
+.sidetext, a {
   color:#45A29e;
+  text-decoration: none;
+  transition: 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
-.work-skills{
-  border-left:2px solid #45a29e
+.sidetext a:hover{
+  color:rgb(221, 222, 223);
+  transition: 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+  @media (min-width: 992px) {
+    .sidebar-item{
+      margin-bottom: 5vh;
+    }
+}
+ 
+@media (min-width: 576px) {
+  .work-skills{
+    border-left:2px solid #45a29e;
+  }
+}
+
+@media (max-width: 576px) {
+  .work-skills{
+    border-top:2px solid #45a29e;
+    padding-top:1em;
+  }
 }
