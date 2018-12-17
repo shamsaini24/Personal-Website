@@ -470,6 +470,14 @@ fieldset[disabled] .btn-custom.active {
   padding-top:0.6rem;
 }
 
+.modal-link:hover{
+  color:rgb(221, 222, 223);
+  transition: 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
 .footer {
   margin-top: 4rem;
   padding:1rem;
