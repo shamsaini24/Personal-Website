@@ -21,8 +21,13 @@ canvas.width = W;
 canvas.height = H;
 
 //Particle setup
-var particle_count = 45,
-    particles = [],
+particle_count = 0;
+if(canvas.width <= 600){
+    particle_count = 30;
+} else{
+    particle_count = 45;
+}
+var particles = [],
     couleurs   = ["#07689f", "#a2d5f2", "#fafafa","#45A29E"];
 function Particle()
 {

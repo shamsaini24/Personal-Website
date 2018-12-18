@@ -22,24 +22,21 @@ html, body {
   background: #66fcf1; /* Gecko Browsers */
 }
 
-#canvas, #text {
+#canvas {
 	position: absolute;
 	display: block;
 	top: 0;
 	left: 0;
 	z-index: -1;
 }
+#index-content{
+  padding-top:6%;
+}
 #text {
-  min-height: 65vh;
-  width: 100vw;
   z-index: 1;
   color: #fff;
-  font-size: 6vmin;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 3rem;
   text-align: center;
-  margin: 0%;
 }
 #text h1 {
 	opacity: 0.9;
@@ -50,17 +47,8 @@ html, body {
 }
 
 #button{
-  position: absolute;
-	display: block;
-	top: 0;
-  left: 0;
-  min-height: 92vh;
-  width: 100vw;
-  display: flex;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  margin: 0%;
 }
 
 .button {
@@ -69,12 +57,11 @@ html, body {
   background: transparent;
   color: #FFFFFF;
   text-align: center;
-  font-size: 3vmin;
+  font-size: 2rem;
   padding: 1vmin;
-  width: 20vw;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5em;
+  margin: 2em;
   z-index: 1;
 }
 
