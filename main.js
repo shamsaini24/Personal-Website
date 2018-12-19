@@ -1,3 +1,4 @@
+//Typewriter Jumbotron setup
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -8,6 +9,7 @@ var TxtType = function(el, toRotate, period) {
     this.isDeleting = false;
 };
 
+//Typewriter Jumbotron typing effect
 TxtType.prototype.tick = function() {
     var i = this.loopNum % this.toRotate.length;
     var fullTxt = this.toRotate[i];
@@ -39,7 +41,6 @@ TxtType.prototype.tick = function() {
     setTimeout(function() {
         that.tick();
         }, delta);
-
 };
 
 window.onload = function() {
@@ -56,11 +57,9 @@ window.onload = function() {
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap" ;
     document.body.appendChild(css);
-
-  
 };
 
-// Cache selectors
+// Cache selectors for nav-bar
 var lastId,
     topMenu = $(".navbar-nav"),
     jumboheight = $(".jumbotron").outerHeight();
