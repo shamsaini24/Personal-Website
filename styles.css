@@ -547,7 +547,8 @@ ul.social-media-list img {
 }
 
 ul.social-media-list img:hover {
-  background-color: #45A29e;
+  border-bottom:3px solid rgb(99, 204, 199);
+  
 }
 
 .back-button{
