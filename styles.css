@@ -379,6 +379,12 @@ span{
   filter: none;
 }
 
+/* Disable grayscale on hover */
+.greyscale:active {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+
 .row{
   margin-right: auto;
   margin-left: auto; 
@@ -511,7 +517,7 @@ fieldset[disabled] .btn-custom.active {
   }
 
   #project1{
-    margin-top:1rem;
+    margin-top:2rem;
   }
   #project2{
     margin-top:2rem;
