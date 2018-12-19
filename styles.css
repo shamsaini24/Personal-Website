@@ -364,14 +364,16 @@ span{
   max-width: none;
   width: 100%;
 }
+ @media (min-width: 769px){
+  .greyscale {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+ }
 
-.greyscale {
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-}
 
 /* Disable grayscale on hover */
 .greyscale:hover {
@@ -379,7 +381,7 @@ span{
   filter: none;
 }
 
-/* Disable grayscale on hover */
+/* Disable grayscale on active */
 .greyscale:active {
   -webkit-filter: grayscale(0);
   filter: none;
