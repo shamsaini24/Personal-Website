@@ -177,7 +177,7 @@ html, body {
   width: 100%;
   margin: 0 auto;
   height: inherit;
-  margin-bottom: 7rem;
+  margin-bottom: 6rem;
 }
 
 #about-picture{
@@ -243,6 +243,10 @@ span{
 
 #portfolio{
   margin-bottom: 6rem;
+}
+
+#past-experience{
+  margin-bottom: 5rem;
 }
 
 #project1{
@@ -364,15 +368,16 @@ span{
   max-width: none;
   width: 100%;
 }
- @media (min-width: 769px){
+
+@media (min-width: 769px){
   .greyscale {
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
   }
- }
+}
 
 
 /* Disable grayscale on hover */
@@ -624,10 +629,10 @@ ul.social-media-list img:hover {
   -o-transition: all 0.5s;
 }
 
-  @media (min-width: 992px) {
-    .sidebar-item{
-      margin-bottom: 5vh;
-    }
+@media (min-width: 992px) {
+  .sidebar-item{
+    margin-bottom: 5vh;
+  }
 }
  
 @media (min-width: 576px) {
