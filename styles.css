@@ -177,7 +177,6 @@ html, body {
   width: 100%;
   margin: 0 auto;
   height: inherit;
-  margin-bottom: 6rem;
 }
 
 #about-picture{
@@ -218,6 +217,56 @@ span{
  
 #about-title{
   float:center;
+}
+
+#goals{
+  width: 100%;
+  margin: 0 auto;
+  height: inherit;
+}
+
+#goals-dropdown {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#goals-dropdown:hover .bottom{
+  border: 0.4em solid #e74c3c;
+}
+
+#goals-dropdown:hover .bottom:after {
+  border-top: 0.4em solid #e74c3c;
+  border-right: 0.4em solid #e74c3c;
+}
+
+.bottom {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.4em solid #333;
+  border-radius: 50%;
+  margin-left: 0.75em;
+}
+
+.bottom:after {
+  content: '';
+  display: inline-block;
+  margin-top: 0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.4em solid #333;
+  border-right: 0.4em solid #333;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#goals-title{
+  background: violet;
+}
+
+#goals-descrip{
+  background:green;
 }
 
 #portrait{
