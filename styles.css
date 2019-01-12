@@ -231,19 +231,19 @@ span{
 }
 
 #goals-dropdown:hover .bottom{
-  border: 0.4em solid #e74c3c;
+  border: 0.4em solid #45a29e;
 }
 
 #goals-dropdown:hover .bottom:after {
-  border-top: 0.4em solid #e74c3c;
-  border-right: 0.4em solid #e74c3c;
+  border-top: 0.4em solid #45a29e;
+  border-right: 0.4em solid #45a29e;
 }
 
 .bottom {
   display: inline-block;
   width: 4em;
   height: 4em;
-  border: 0.4em solid #333;
+  border: 0.4em solid #66fcf1;
   border-radius: 50%;
   margin-left: 0.75em;
 }
@@ -254,19 +254,24 @@ span{
   margin-top: 0.6em;
   width: 1.4em;
   height: 1.4em;
-  border-top: 0.4em solid #333;
-  border-right: 0.4em solid #333;
+  border-top: 0.4em solid #66fcf1;
+  border-right: 0.4em solid #66fcf1;
   -moz-transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
 }
 
 #goals-title{
-  background: violet;
+  background: #66fcf1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #goals-descrip{
-  background:green;
+  background: #1F2833;
+  color:white;
+  padding:10px;
 }
 
 #portrait{
