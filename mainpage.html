@@ -60,7 +60,7 @@
     
     <div class="row align-items-center justify-content-center" id="about">
       <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12 media" id="about-picture"> 
-        <img class="img-fluid mx-auto" id="portrait" src="images/waffle.jpg" alt="portrait">
+        <img class="img-fluid mx-auto" id="portrait" src="images/shams.jpg" alt="portrait">
       </div>
       <div class="col-lg-3 col-md-7 col-sm-12 col-xs-12 text-center" id="about-title"><h2>Who's this Guy?</h2></div>
       <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="about-description">
@@ -73,31 +73,26 @@
     </div>
 
     <!--TODO: ADD DOWN ARROW TO REVEAL GOALS SECTION-->
-    <div class="row  justify-content-center collapse" id="collapseExample">
-        <div class="col-lg-2 col-md-2 text-center" id="goals-title">
-          <h1>Goals</h1>
-        </div>
-          
-          <div class="col-lg-10 col-md-10" id="goals-descrip">
-              That's me, Sham! I'm a Computer System's Technology student at BCIT, currently in my 2nd year. I'm also 1 of 50 people in my September 2017 intake to be selected for the co-op program.
-              I'm one of, if not, the youngest students in the co-op program, possibly the entire intake. The experience of me being the youngest in any given room has matured me as a person, socially and
-              professionally. I've lived in Vancouver all my life which has put me in the fortunate position of being near some of the biggest companies and determined startups. I’m a motivated guy and I’m
-               aspiring to find my place in the expansive tech industry we have here.
-           </div>
-
-    </div>
 
     <div class="row align-items-center justify-content-center" id="goals">
       <div class="col-lg-12 text-center">
-        <a href="#" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="goals-dropdown">
-          <span class="bottom"></span>
-        </a>
+        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="goals-dropdown"> <span class="bottom"></span> </a>
       </div>
     </div>
+      
+    <div id="collapseOne" class="collapse">
+      <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-2 text-center" id="goals-title">
+          <h1>Goals</h1>
+        </div>
 
-      
-        
-      
+        <div class="col-lg-10 col-md-10" id="goals-descrip">
+            That's me, Sham! I'm a Computer System's Technology student at BCIT, currently in my 2nd year. I'm also 1 of 50 people in my September 2017 intake to be selected for the co-op program.
+            I'm one of, if not, the youngest students in the co-op program, possibly the entire intake. The experience of me being the youngest in any given room has matured me as a person, socially and
+            professionally. I've lived in Vancouver all my life which has put me in the fortunate position of being near some of the biggest companies and determined startups. I’m a motivated guy and I’m
+            aspiring to find my place in the expansive tech industry we have here.</div>
+      </div>
+    </div>
 
 
     <h1 class="col-lg-12 header-2 ">Portfolio</h1>
@@ -127,12 +122,14 @@
                     <div class="modal-body">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 modal-picture text-center"><img class="img-fluid mx-auto" src="images/waffle.jpg" alt="Waffle House Restaurant"></div>
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 modal-text">
-                        The <a class="modal-link" href="https://www.wafflehouserestaurant.com/" target="_blank">Waffle House Restaurant website</a> was a personal project of mine commissioned by one of my friends for his parents' restaurant. What went into the website was the culmination of my high school web dev
+                        <p>The <a class="modal-link" href="https://www.wafflehouserestaurant.com/" target="_blank">Waffle House Restaurant</a> website was a personal project of mine commissioned by one of my friends for his parents' restaurant. What went into the website was the culmination of my high school web dev
                         knowledge and what I had learned during my first term web dev course at BCIT. The website was built using one of my previous projects as a framework for a mobile friendly website, the
                         <a class="modal-link" href="https://github.com/shamsaini24/Marina-Cafe" target="_blank">Marina Cafe</a>. As for languages, pure CSS and Bootstrap were used alongside HTML to build the website, with a bit of Javascript sprinkled
-                        in. The website was sucessfully launched on Dec 8, 2018, and was hosted on his personal FTP server. He and his family enjoyed the website, and I ocassionally update the website to improve it.
-                        I learned quite a bit during this project. I learned how to discuss details with clients that may not be as informed or concerned about the technical aspects. I also gained some knowledge on web
-                         hosting and domain management technologies.
+                        in. The website was sucessfully launched on Dec 8, 2018, and was hosted on his personal FTP server.</p>
+
+                        <p> My friend and his family liked the website and thought of it as a much needed modernization of their old website.
+                         I learned quite a bit during this project. I learned how to discuss details with clients that may not be as informed or concerned about the technical aspects. I also gained some knowledge on web
+                         hosting and domain management technologies.</p>
                       </div>
                     </div>
                     <div class="modal-footer">
@@ -165,14 +162,15 @@
                     <div class="modal-body">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 modal-picture text-center"><img class="img-fluid mx-auto" src="images/bcit-hackgroup.png" alt=""></div>
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 modal-text">
-                        During the short break between my first and second terms at BCIT, all 50 co-op students were invited to the first 
+                        <p>During the short break between my first and second terms at BCIT, all 50 co-op students were invited to the first 
                         annual BCIT Hackathon. We were organized into randomly selected teams of 4 or 5 people and were 
                         instructed to create "something a BCIT student would find helpful" within 48 hours. None of us knew how to make a coffee machine, so we created the Productivity Analyzer.
                         The Productivity Analyzer is a web app that asks the user to rank their productivity on a scale from 1 to 10 after a set amount of time, tracking your scores, 
-                        and visualizing your scores over a certain time period. The app was built using HTML and Javascript for the front-end, SQL for back-end storage, and PHP connecting the two. Unfortunately, 
+                        and visualizing your scores over a certain time period.</p>
+                        <p>The app was built using HTML and Javascript for the front-end, SQL for back-end storage, and PHP connecting the two. Unfortunately, 
                         due to time constraints and lack of hackathon experience from a majority of our group, we were unable to completely flesh out the features that we intended to implement.
                         However, we learned a lot about working in an Agile/Scrum workflow, as well as gaining experience working with people we have never worked with before. What I learned over those 
-                        two days has helped me both in school and in the workplace.
+                        two days has helped me both in school and in the workplace.</p>
                       </div>
                     </div>
                     <div class="modal-footer">
@@ -205,12 +203,13 @@
                     <div class="modal-body">
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 modal-picture text-center"><img class="img-fluid mx-auto" src="images/chess-game.jpg" alt=""></div>
                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 modal-text">
-                        During my 2nd term at BCIT, we were tasked to make a functioning Chess Game using the 4 principles of object oriented programming (OOP). This was done over the span 
+                        <p>During my 2nd term at BCIT, we were tasked to make a functioning Chess Game using the 4 principles of object oriented programming (OOP). This was done over the span 
                         of 3 months, individually, using Java in an attempt to make us understand the importance of designing before coding. We were to build the game in stages: (1) design the game, (2) build
-                        the board, (3) place the pieces on the board, (4) make the pieces move, (5) make the pieces interact with each other, and (6) add the rules. Designing the UML diagram seemed easy at 
+                        the board, (3) place the pieces on the board, (4) make the pieces move, (5) make the pieces interact with each other, and (6) add the proper moves to each piece.</p> 
+                        <p> Designing the UML diagram seemed easy at 
                         first, until I had to apply what I had designed. After some design revisions, the board was made. Each step after the first had its fair share of technical difficulty, but a majority of my pain came from my 
-                        design. Once the rules had been added, and the pieces moved how they should, our teacher had another task for us; converting the game into 3D chess. My design restricted me from altering the board without having the game break, this is 
-                        when I learned the importance of design. At the end, I got my game to work but had I been more thorough in my design I could have saved myself from a couple long nights.
+                        design. Once the rules had been added, and the pieces moved how they should, our teacher had another task for us; converting the game into 3D chess. My design restricted me from altering the board without breaking the game, this is 
+                        when I learned the importance of design. At the end, I got my game to work but had I been more thorough in my design I could have saved myself from a couple long nights.</p>
                       </div>
                     </div>
                     <div class="modal-footer">
