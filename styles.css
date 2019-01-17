@@ -185,13 +185,13 @@ float: right;
 
 @media (min-width: 768px) {
   #about-description{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 768px) {
   #about-description{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -261,6 +261,10 @@ span{
   transform: rotate(135deg);
 }
 
+.flip {
+  transform: rotate(-180deg);
+}
+
 #goals-title{
   background: #66fcf1;
   display:flex;
@@ -268,10 +272,11 @@ span{
   justify-content: center;
 }
 
-#goals-descrip{
+#goals-description{
   background: #1F2833;
   color:white;
   padding:10px;
+  font-size:1.1rem;
 }
 
 #portrait{
@@ -535,7 +540,7 @@ fieldset[disabled] .btn-custom.active {
 .footer {
   margin-top: 4rem;
   padding:1rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   width: 100%;
   background-color: #C5C6C7;
   color:#1F2833;
@@ -551,26 +556,13 @@ fieldset[disabled] .btn-custom.active {
   text-decoration: underline;
 }
 
-#footer-phone{
-  font-size: 1.2em;
-  padding-top:0.4em;
-}
-
-#footer-text{
-  height:inherit;
-  font-size: 1.2em;
-}
-
 @media (max-width: 768px) {
   .footer-item{
     margin-top:2em;
   }
 
-  #footer-text{
-    padding-top:8px;
-    padding-bottom:8px;
-    border-top: 1px solid #1F2833;
-    border-bottom:  1px solid #1F2833;
+  #footer-name-email{
+    text-align: center;
   }
 
   .work-item{

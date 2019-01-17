@@ -116,4 +116,11 @@ $("#about-nav").click(function() {
             'slow');
     });
 
+    $(document).ready(function() {
+        $( ".toggle" ).click( function() {
+            $(".bottom").toggleClass('flip');
+        });
+    });
+
+
     
